@@ -1,4 +1,4 @@
-FROM postgres:9.5
+FROM postgres
 ENV POSTGRES_DB=postgres
 ENV POSTGRES_PASSWORD=odoo
 ENV POSTGRES_USER=odoo

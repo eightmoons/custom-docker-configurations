@@ -1,4 +1,4 @@
-FROM odoo:13
+FROM odoo:14
 USER root 
 RUN pip3 install oauthlib
 RUN pip3 install cryptography
